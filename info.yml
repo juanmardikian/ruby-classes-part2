@@ -2,12 +2,13 @@
 
 # Required fields: unit, section and type
 
-unit: (unit here)
+unit: 4
 
-section: (section here)
+section: Ruby / Ruby on rails
 
-type: (type here)
+type: lesson
 
+prereqs: basic iterators, conditionals
 
 # optional fields:
   # notes
