@@ -20,16 +20,16 @@ If a superclass has instance methods, then its subclasses automatically inherit 
 ## Let's walk through our example
 Here’s how we might use inheritance to get rid of the repetition in the virtual test-drive app.
 <p align="center">
-<img src="https://git.generalassemb.ly/sei-nyc-cheetahs/Ruby/blob/master/images/init1.jpg" width="400"> <br>
+<img src="https://git.generalassemb.ly/sei-nyc/ruby-classes-part2/blob/master/classes2-img1.jpg" width="400"> <br>
 <b>We see that the Car, Truck, and Motorcycle classes have several instance methods and attributes in common</b>
 </p>
 Each one of these classes is a type of vehicle. So we can create a new class, which we’ll choose to call Vehicle, and move the common methods and attributes there
 <p align="center">
-<img src="https://git.generalassemb.ly/sei-nyc-cheetahs/Ruby/blob/master/images/init2.jpg" width="200"> <br>
+<img src="https://git.generalassemb.ly/sei-nyc/ruby-classes-part2/blob/master/classes2-img2.jpg" width="200"> <br>
 <b>Then, we can specify that each of the other classes inherits from the Vehicle class</b>
 </p>
 <p align="center">
-<img src="https://git.generalassemb.ly/sei-nyc-cheetahs/Ruby/blob/master/images/init3.jpg" width="450"> <br>
+<img src="https://git.generalassemb.ly/sei-nyc/ruby-classes-part2/blob/master/classes2-img3.jpg" width="450"> <br>
 <b>The Vehicle class is called the superclass of the other three classes. Car, Truck, and Motorcycle are called subclasses of Vehicle</b>
 </p>
 The syntax for using inheritance is to define the class name followed by the < symbol, followed by the parent class name. For example, our Car class inherits from the Vehicle class with the following syntax:
@@ -333,11 +333,11 @@ attr_accessor is used when you want to have both a setter and getter defined for
 A linked list is a way to store a collection of elements. Like an array these can be character or integers. Each element in a linked list is stored in the form of a node. A node is a collection of two sub-elements or parts. A data part that stores the element and a next part that stores the link to the next node.
 
 <p align="center">
-<img src="https://git.generalassemb.ly/sei-nyc-cheetahs/Ruby/blob/master/images/node.png" width="200"> <br>
+<img src="https://git.generalassemb.ly/sei-nyc/ruby-classes-part2/blob/master/classes2-img4.png" width="200"> <br>
 </p>
 A linked list is formed when many such nodes are linked together to form a chain. Each node points to the next node present in the order. The first node is always used as a reference to traverse the list and is called HEAD. The last node points to NULL.                                                                                                                                                                                                                                                                                                                                 
 <p align="center">
-<img src="https://git.generalassemb.ly/sei-nyc-cheetahs/Ruby/blob/master/images/linked.png" width="600"> <br>
+<img src="https://git.generalassemb.ly/sei-nyc/ruby-classes-part2/blob/master/classes2-img5.png" width="600"> <br>
 </p>
                                                                                                                                                                            
 ```ruby
