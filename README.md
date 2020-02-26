@@ -1,9 +1,5 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Ruby - Classes Part2
 
-| Title | Type | Duration | Author | 
-| -- | -- | -- | -- |
-| Classes - Part2 | Lesson | 2:00 | Suresh Melvin Sigera |
-
 ## Objectives
 - Instance variables Vs Class variables
 - Describe what is inheritance is
